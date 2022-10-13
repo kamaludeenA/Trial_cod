@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:purple;
+    bottom: 0px;
+}
+.cell{
+    
+    width:95px;
+    height: 95px;
+    border: 2px solid white;
+    box-shadow: 0 0 0 4px;
+    line-height: 75px;
+    font-size: 65px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    background-color:whitesmoke;
+    margin: 5px;
+    height: 560px;
+    bottom: 20px;
+    
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: yellow;
+    width: 285px;
+    margin: auto;
+    position: relative;
+    top:20px;   
+
+}
+#headi{
+    font-size: 40px;
+    font-style: italic;
+
+}
+#statusText{
+    color:rgb(255, 0, 0);
+    font-size: 45px;
+    position: relative;
+    bottom: -18px;
+
+}
+#restartBtn{
+    margin: 25px;
+    width: 160px;
+    line-height: 35px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    font-size: larger;
+    background-color: gray;
+    border: 2px solid black;
+    color: whitesmoke;
+}
