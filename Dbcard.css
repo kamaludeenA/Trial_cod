@@ -3,6 +3,27 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: #1a1a1a;
+}
+#Dbtn{
+    margin-top:65%;
+    margin-left: 15px;
+    width: 120px;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius:15px;
+    font-weight: 500;
+    background-color:#07c8f9;
+    color: mintcream;
+
+}
+#Dbtn:hover{
+   background-color: #dc059e;
+   color: mintcream;
+   font-weight: 500;
+   letter-spacing: 1.3px;
+}
 .gold-img{
     width:80px ;
     height:45px ;
@@ -14,13 +35,17 @@
     align-items: center;
     min-height: 100vh;
     background: #1a1a1a;
+    width: 750px;
+    top: 50%;
+    left: 50%;
 }
 .container::before{
     content: '';
     position: absolute;
-    bottom: -40%;
-    left: 40%;
+    bottom: 40%;
+    left: 18%;
     width: 600px;
+    background-color:#1a1a1a;
     height: 600px;
     background: linear-gradient(#07c8f9,#dc059e);
     border-radius: 38%;
@@ -33,16 +58,19 @@
     left: 40px;
     color: #fff;
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 1.7px;
     font-weight: 400;
 }
 .atm-card{
     position: relative;
-    width: 510px;
+    width:100%;
     height: 310px;
     transform-style: preserve-3d;
     perspective: 500px;
+    /* Sample test*/
+   
 }
+
 .atm-card:hover{
     box-shadow: 0px 0px 8px mintcream,
                 0px 10px 10px #fff,

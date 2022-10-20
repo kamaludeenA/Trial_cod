@@ -8,18 +8,27 @@
     <title>Debit Card</title>
 </head>
 <body>
+    <script>
+        MyCard=()=>{
+        let holname = window.prompt("Enter your Name :  ");
+        let bankname = window.prompt("Enter your Bank Name :  ");
+        document.getElementById("hname").innerHTML =holname;
+        document.getElementById("banki").innerHTML =bankname;
+        }
+    </script>
     <div class="container">
+        <button type ="submit" id="Dbtn" onclick="MyCard()">My Debit</button>
         <div class="atm-card">
             <div class="atm-design one-side">
                 <h3 class="debit">Debit Card</h3>
-                <h3 class="bank">IOB</h3>
+                <h3 class="bank" id="banki">IOB</h3>
                 <img src="chipimg.png" class="gold-img">
                 <h3 class="acc-no">1234 5678 9101 1121</h3>
                 <h5 class="valid">
                     <span id="mentio">Valid<br>to</span>
                     <span>10/24</span>
                 </h5>
-                <h5 class="holder">Designed by Kamaludeen</h5>
+                <h5 class="holder" id="hname">Designed by Kamaludeen</h5>
             </div>
         </div>
     </div>
